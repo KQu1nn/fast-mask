@@ -5,7 +5,7 @@
             FAST MASK
         </h1></NuxtLink>
         <ul class="flex flex-row gap-8 font-medium items-center">
-            <div class="flex flex-row gap-8 font-medium items-center text-gray-800">
+            <div class="hidden md:flex flex-row gap-8 font-medium items-center text-gray-800">
                 <li>
                     <NuxtLink to="/produtos">Produtos</NuxtLink>
                 </li>
