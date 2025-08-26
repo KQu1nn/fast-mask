@@ -36,7 +36,7 @@
         </div>
         <hr class="mt-15 border-gray-800">
         <div class="text-center pt-10">
-            <p class="text-gray-400">© 2024 Fast Mask. Todos os direitos reservados.</p>
+            <p class="text-gray-400">© 2025 Fast Mask. Todos os direitos reservados.</p>
         </div>
     </div>
 </template>
