@@ -14,7 +14,7 @@
         </div>
 
         <div>
-            <ProductPreview :showButton="false" />
+            <ProductPreview :products="productsStore.products"/>
         </div>
 
         <div class="w-full flex flex-col items-center justify-center gap-3 bg-gray-50 py-25">
@@ -27,3 +27,8 @@
         </div>
     </div>    
 </template>
+<script setup>
+import { useProductsStore } from '@/stores/products';
+
+const productsStore = useProductsStore();
+</script>
